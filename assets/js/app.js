@@ -53,7 +53,7 @@ const pageClasses = {
 };
 
 const customClasses = {
-    //'pages/product': () => import('./theme/custom/custom'),
+    'pages/custom/product/product-gift': () => import('./theme/custom/product-gift'),
     'pages/custom/product/product-engraving': () => import('./theme/custom/product-engraving') //Add a metafield Engraving to the products
 };
 

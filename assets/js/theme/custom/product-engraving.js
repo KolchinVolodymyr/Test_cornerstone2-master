@@ -1,13 +1,14 @@
 import PageManager from '../page-manager';
 import $ from 'jquery';
 
-export default class Custom extends PageManager {
+export default class CustomProductEngraving extends PageManager {
 
     onReady() {
         /*
         * Custom JS
         */
-        var EngravingLengthID = null;//global variable
+        //global variable
+        var EngravingLengthID = null;
         var EngravingID = null;
         var productInputTextValueLength = null;
 
